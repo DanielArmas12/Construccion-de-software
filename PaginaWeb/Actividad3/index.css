@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    color: black;
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header{
+    background-color: navy;
+}
+
+.foto{
+    float: right;
+    width: 80px;
+    height: auto;
+}
+
+.titulo{
+    flex-direction: column;
+}
+.Header h1{
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+.Header h3{
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+    color: cyan;
+}
+.Content{
+    margin: 40px auto;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+    background-color: white;
+    border-style: dashed;
+    border-radius: 1%;
+    border-color: cyan;
+    list-style: 4;
+}
+
+.fotografias{
+    width: 300px;
+    height: 200px;
+}
+
+.Footer{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: navy;
+}
+
+#mainP{
+    width: 100%;
+
+}
+
+#mainI{
+    width: 100%;
+}
